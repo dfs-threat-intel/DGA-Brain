@@ -1,6 +1,8 @@
 import math
 import pickle
 from collections import Counter
+import sys
+
 
 #unpickle the datasets created during training phase
 file_Name = "RandomForestClassifier"
@@ -46,3 +48,6 @@ def entropy(s):
     p, lns = Counter(s), float(len(s))
     return -sum( count/lns * math.log(count/lns, 2) for count in p.values())
 
+if __name__ == "__main__":
+    a = sys.argv[1]
+    test_it(a)
