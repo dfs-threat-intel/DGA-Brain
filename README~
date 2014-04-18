@@ -1,0 +1,9 @@
+Okay - so I guess I need to talk about this thing.
+
+I built this stuff by going through this exercise 
+
+http://nbviewer.ipython.org/github/ClickSecurity/data_hacking/blob/master/dga_detection/DGA_Domain_Detection.ipynb
+
+After running through some machine learning I created datasets that can be applied to a domain and it'll return "legit" or "dga"
+
+

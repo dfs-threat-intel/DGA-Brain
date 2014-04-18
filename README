@@ -6,4 +6,35 @@ http://nbviewer.ipython.org/github/ClickSecurity/data_hacking/blob/master/dga_de
 
 After running through some machine learning I created datasets that can be applied to a domain and it'll return "legit" or "dga"
 
+Example use:
+
+test_it('google')
+test_it('google88')
+test_it('facebook')
+test_it('1cb8a5f36f')
+test_it('pterodactylfarts')
+test_it('ptes9dro-dwacty2lfa5rrts')
+test_it('beyonce')
+test_it('bey666on4ce')
+test_it('discoverstudentloans')
+test_it('yourmomissohotinthesummertime')
+test_it('35-sdf-09jq43r')
+test_it('clicksecurity')
+
+Example output:
+
+google : legit
+google88 : legit
+facebook : legit
+1cb8a5f36f : dga
+pterodactylfarts : legit
+ptes9dro-dwacty2lfa5rrts : dga
+beyonce : legit
+bey666on4ce : dga
+discoverstudentloans : legit
+yourmomissohotinthesummertime : legit
+35-sdf-09jq43r : dga
+clicksecurity : legit
+
+
 
